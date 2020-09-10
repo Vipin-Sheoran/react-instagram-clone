@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+}
+.App{
+  background-color: #fafafa;
+  /* height: 100vh; */
+}
+
+.appheader__image{
+  object-fit: contain;    /*maintains the actual aspect ratio of the object*/
+  background-color: white;
+  padding:10px;
+  height:5vh;
+}
+.app__header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  border-bottom:1px solid lightgrey;
+  object-fit: contain;
+  display: flex;
+  object-fit: contain;
+  justify-content: space-between;
+}
+
+.app__signup{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.app_posts{
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.apppost_left{
+text-decoration: none;
+}
+.apppost_right{
+  margin-left: 30px;
+}
