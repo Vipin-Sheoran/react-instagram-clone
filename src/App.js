@@ -215,7 +215,7 @@ auth.signOut()
 </div>
 
       {
-        user?.displayName?(<ImageUpload username={user.displayName}/>):
+        user?(<ImageUpload username={user.displayName}/>):
         <h3>Please login to Upload</h3>
       }
     </div>
